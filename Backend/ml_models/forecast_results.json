@@ -1,0 +1,60 @@
+{
+  "model_performance": {
+    "arima": {
+      "mae": 19893.66,
+      "rmse": 26746.59,
+      "mape": 25.68
+    },
+    "gradient_boosting": {
+      "mae": 11660.51,
+      "rmse": 14825.08,
+      "mape": 19.57,
+      "r2": 0.6472
+    }
+  },
+  "best_model": "gradient_boosting",
+  "future_forecast": [
+    {
+      "month": "2018-01",
+      "arima_forecast": 51668.59,
+      "gb_forecast": 65125.42,
+      "lower_bound": 57310.37,
+      "upper_bound": 72940.48
+    },
+    {
+      "month": "2018-02",
+      "arima_forecast": 42242.42,
+      "gb_forecast": 64872.47,
+      "lower_bound": 57087.77,
+      "upper_bound": 72657.16
+    },
+    {
+      "month": "2018-03",
+      "arima_forecast": 52634.5,
+      "gb_forecast": 59208.07,
+      "lower_bound": 52103.11,
+      "upper_bound": 66313.04
+    },
+    {
+      "month": "2018-04",
+      "arima_forecast": 53635.72,
+      "gb_forecast": 57016.6,
+      "lower_bound": 50174.61,
+      "upper_bound": 63858.59
+    },
+    {
+      "month": "2018-05",
+      "arima_forecast": 51435.79,
+      "gb_forecast": 55671.38,
+      "lower_bound": 48990.82,
+      "upper_bound": 62351.95
+    },
+    {
+      "month": "2018-06",
+      "arima_forecast": 54727.96,
+      "gb_forecast": 55682.97,
+      "lower_bound": 49001.01,
+      "upper_bound": 62364.92
+    }
+  ]
+}
